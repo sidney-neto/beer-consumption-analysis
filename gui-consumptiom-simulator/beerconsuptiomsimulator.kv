@@ -1,0 +1,60 @@
+#:kivy 1.11.1
+<BeerConsuptiom>:
+    BoxLayout:
+        
+        orientation: 'vertical'
+        padding: [10,20,10,20]
+        spacing: 10
+
+        Label:
+            text: 'Beer Consumption in liters :'
+            font_size: 24
+
+        Label:
+            text: root.entrada
+            font_size: 20
+
+        BoxLayout:
+            orientation: 'vertical'
+            Label:
+                text: 'temp_max'
+                font_size: 18
+                halign: 'left'
+                text_size: root.width-20, 20
+
+            TextInput:
+                id: temp_max
+                multiline:False
+                font_size: 20
+
+        BoxLayout:
+            orientation: 'vertical'
+            Label:
+                text: 'chuva'
+                font_size: 18
+                halign: 'left'
+                text_size: root.width-20, 20
+
+            TextInput:
+                id: chuva
+                multiline:False
+                font_size: 20
+
+        BoxLayout:
+            orientation: 'vertical'
+            Label:
+                text: 'fds'
+                font_size: 18
+                halign: 'left'
+                text_size: root.width-20, 20
+
+            TextInput:
+                id: fds
+                multiline:False
+                font_size: 20
+
+        Button:
+            text: 'Simulate'
+            font_size: 22
+            background_color: (2, 2, 0 , 1)
+            on_press: root.do_simulate(temp_max.text, chuva.text, fds.text)
