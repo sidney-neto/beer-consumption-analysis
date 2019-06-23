@@ -8,3 +8,6 @@ Introduction to Data Analysis of beer consumption with Pandas, NumPy and Matplot
 
 ## About Data
 - Check out the dataset [Beer Consumption - Sao Paulo](https://www.kaggle.com/dongeorge/beer-consumption-sao-paulo) from Kaggle.
+
+## References
+- [Alura - Regressão Linear](https://www.alura.com.br/curso-online-data-science-modelo-regressao-linear)
