@@ -1,7 +1,7 @@
 # Beer Consumption Simulator
 
 <p align="center">
-  <img src="https://giphy.com/gifs/UtnRb5lUokd51BHvfK" width="400">
+  <img src="https://media.giphy.com/media/UtnRb5lUokd51BHvfK/giphy.gif" width="400">
 </p>
 
 ## About
