@@ -18,7 +18,7 @@ class BeerConsuptiom(Screen):
         app.chuva = chuva
         app.fds = fds
 
-        df = pd.read_csv('../Datasets/Consumo_cerveja.csv', sep=';')
+        df = pd.read_csv('../datasets/Consumo_cerveja.csv', sep=';')
         y = df['consumo']
         X = df[['temp_max','chuva','fds']]
         
