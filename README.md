@@ -1,4 +1,6 @@
 # beer-consumption-analysis
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sidney-neto/beer-consumption-analysis/blob/master/beer-consumption-analysis.ipynb)
+
 Introduction to Data Analysis of beer consumption with Pandas, NumPy and Matplotlib & Machine Learning, Linear Regression with SciKit-Learn.
 
 ![beer-consumption](https://media.giphy.com/media/26gjiYH2vGNjB11wk/giphy.gif)
